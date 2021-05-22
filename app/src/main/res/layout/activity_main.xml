@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/selectFoodTxt"
+        android:id="@+id/selectedFoodTxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Chinese"
@@ -24,7 +24,7 @@
         android:id="@+id/logo"
         android:layout_width="120dp"
         android:layout_height="120dp"
-        app:layout_constraintBottom_toTopOf="@+id/selectFoodTxt"
+        app:layout_constraintBottom_toTopOf="@+id/selectedFoodTxt"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -32,7 +32,7 @@
         app:srcCompat="@drawable/dd_logo" />
 
     <Button
-        android:id="@+id/btnFix"
+        android:id="@+id/btnPick"
         android:layout_width="0dp"
         android:layout_height="60dp"
         android:backgroundTint="@color/colorPrimaryDark"
@@ -54,13 +54,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
+
     <Button
         android:id="@+id/btnAdd"
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_marginBottom="80dp"
         android:text="ADD FOOD"
-        app:layout_constraintBottom_toTopOf="@+id/btnFix"
+        app:layout_constraintBottom_toTopOf="@+id/btnPick"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
